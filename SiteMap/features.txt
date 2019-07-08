@@ -1,0 +1,19 @@
+Features:
+
+* user register/ login (forgot pass smtp) / logout
+* default template theme for new registered blogs
+* every user : blogname.blogma.com (if possible) (or make a folder for him/her
+* best blogs (ordered by no of likes) preview
+* blogs list pagination for ppl to see
+* if possible, bad words prevention
+* users first page => a pagination for posts , and more details in a separete page
+* support farsi (2 languages)
+* if possible, theme for every blog
+* comment for every post (if blog admin approve)
+* date of post for every post
+* navigation to blog home, last posts, blogma home
+* help/guide if needed
+* report a blog option for ppl (super admin need to approve)
+* cms for super admin!!!
+* about us
+* FAQ if time

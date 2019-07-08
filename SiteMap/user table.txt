@@ -1,0 +1,6 @@
+id
+username
+password
+salt
+blogname
+(relation between post table and user table)
