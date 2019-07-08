@@ -6,10 +6,13 @@
     <meta charset="utf-8" />
     <meta name="description" content="Create your free Weblog" />
     <meta name="keywords" content="blog,post" />
-    <meta name="author" content="Mahdi Mashal" />
+    <meta name="author" content="MHD Fire" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="<?php echo base_url() ?>Public/third_party/jquery.min.js"></script>
+    <link rel="stylesheet" href="<?php echo base_url() ?>Public/third_party/bootstrap.min.css" />
+    <script src="<?php echo base_url() ?>Public/third_party/bootstrap.min.js"></script>
+
+
 </head>
 <body>
-
-</body>
-</html>
+<div class="wrapper">
