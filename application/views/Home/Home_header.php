@@ -11,6 +11,7 @@
     <script src="<?php echo base_url() ?>Public/third_party/jquery.min.js"></script>
     <link rel="stylesheet" href="<?php echo base_url() ?>Public/third_party/bootstrap.min.css" />
     <script src="<?php echo base_url() ?>Public/third_party/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<?php echo base_url() ?>Public/third_party/fontawesome/css/all.min.css" />
 
 
 </head>
