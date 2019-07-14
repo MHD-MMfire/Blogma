@@ -26,6 +26,11 @@
 	
 	<div class="limiter">
 		<div class="container-login100">
+
+            <div class="blogma-brand">
+                Blogma
+            </div>
+
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt>
 					<img src="<?php echo base_url() ?>Public/third_party/Login/images/img-01.png" alt="IMG">
@@ -68,7 +73,7 @@
 					</div>
 
 					<div class="text-center p-t-136">
-						<a class="txt2" href="Register">
+						<a class="txt2" href="<?= base_url() ?>Register">
 							Create your Account
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>

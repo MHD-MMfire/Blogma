@@ -1,16 +1,81 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');  ?>
+<!--header-->
+<div id="homejumbo" class="jumbotron bg-secondary">
+    <h1 class="display-4 text-center mb-4 text-primary">BLOGMA</h1>
+    <p class="lead text-center text-primary mb-3">A powerful place to create your own free blog</p>
+    <div class="lead d-flex justify-content-center">
+        <a class="btn btn-primary btn-lg" href="/Register" role="button">Get Started</a>
+        <small class="navbar-text mx-3">OR</small>
+        <a class="btn btn-primary btn-lg" href="/Login" role="button">Sign In</a>
+    </div>
+</div>
+<!--updated blogs section-->
+<div class="row mx-1 mb-4">
+    <hr class="col hr">
+    <small class="d-flex align-items-center justify-content-center col-4 col-sm-3 col-lg-2"><a href="#" class="h7">Updated Blogs</a></small>
+    <hr class="col hr">
+</div>
 
-<nav class="navbar navbar-expand-lg" style="padding: 5rem;background-color: #e3e3e3; border-radius: 20px">
-    <ul class="navbar-nav">
-        <li class="navbar-brand"><h1>Blogma</h1></li>
-        <li class="nav-item navbar-text" >A free place to create your own blog</li>
-        <li class="nav-item" style="padding: 0px 0.5rem">
-            <li  style="padding: ;"><a href="#" class="btn btn-outline-dark">English</a></li>
-            <span class="nav-item navbar-text" style="padding: 0px 0.5rem; font-size: x-large">/</span>
-            <li class="nav-item"><a href="#" class="btn btn-outline-dark">فارسی</a></li>
-            <li><i class="fas fa-user fa-3x" aria-hidden="true"></i></li>
-            <li><a href="Login">Login</a></li>
-            <li><a href="Register">Register</a></li>
-        </li>
-    </ul>
-</nav>
+<div class="container-fluid mb-5">
+    <div class="row">
+        <div class="card col-6 col-lg-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="d-block btn btn-primary btn-sm">See more</a>
+            </div>
+        </div>
+        <div class="card col-6 col-lg-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="d-block btn btn-primary btn-sm">See more</a>
+            </div>
+        </div>
+        <div class="card col-6 col-lg-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="d-block btn btn-primary btn-sm">See more</a>
+            </div>
+        </div>
+        <div class="card col-6 col-lg-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="d-block btn btn-primary btn-sm">See more</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card col-6 col-lg-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="d-block btn btn-primary btn-sm">See more</a>
+            </div>
+        </div>
+        <div class="card col-6 col-lg-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="d-block btn btn-primary btn-sm">See more</a>
+            </div>
+        </div>
+        <div class="card col-6 col-lg-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="d-block btn btn-primary btn-sm">See more</a>
+            </div>
+        </div>
+        <div class="card col-6 col-lg-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="d-block btn btn-primary btn-sm">See more</a>
+            </div>
+        </div>
+    </div>
+</div>
+

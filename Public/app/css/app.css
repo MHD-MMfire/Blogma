@@ -1,0 +1,25 @@
+:root{
+    /*top navbar height and home margin*/
+    --top-margin: 60px;
+}
+
+#topNav {
+    height: var(--top-margin);
+}
+
+#homejumbo {
+    margin-top: var(--top-margin);
+}
+
+.topNavIcon {
+    font-size: 2rem;
+    padding: 0;
+}
+
+#user_icon {
+    margin: auto 1rem;
+}
+
+.hr {
+    height: 1px;
+}
