@@ -3,6 +3,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
 |--------------------------------------------------------------------------
+| CRUD model loader
+|--------------------------------------------------------------------------
+*/
+spl_autoload_register(
+    function ($class)
+    {
+        $class = strtolower($class);
+        if($class == 'crud_model')
+            require APPPATH . 'models/CRUD_model.php';
+    }
+);
+
+/*
+|--------------------------------------------------------------------------
 | Base Site URL
 |--------------------------------------------------------------------------
 |
@@ -324,7 +338,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'mhdkey';
 
 /*
 |--------------------------------------------------------------------------
@@ -378,7 +392,7 @@ $config['encryption_key'] = '';
 |
 */
 $config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = 'sid';
+$config['sess_cookie_name'] = 'ski';
 $config['sess_expiration'] = 7200;
 $config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;

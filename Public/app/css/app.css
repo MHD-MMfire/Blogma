@@ -4,10 +4,10 @@
 }
 
 #topNav {
-    height: var(--top-margin);
+   min-height: var(--top-margin);
 }
 
-#homejumbo {
+#firstElementBody {
     margin-top: var(--top-margin);
 }
 
@@ -22,4 +22,13 @@
 
 .hr {
     height: 1px;
+}
+
+.orjumbo {
+    user-select: none;
+    margin: auto;
+}
+
+.limiter {
+    background : #4e4a4a;
 }

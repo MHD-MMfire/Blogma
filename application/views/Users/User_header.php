@@ -1,8 +1,8 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');  ?>
 <!DOCTYPE html>
-<html lang="en"> <!--TODO-->
+<html lang="en">
 <head>
-    <title>BLOGMA</title>
+    <title>BLOGMA Signing</title>
     <!--meta-->
     <meta charset="utf-8" />
     <meta name="description" content="Create your free Weblog" />
@@ -16,9 +16,15 @@
     <script src="/Public/third_party/jquery.min.js"></script>
     <script src="/Public/third_party/bootstrap.min.js"></script>
     <script src="/Public/third_party/popper.min.js"></script>
+    <!--third party template-->
+    <link rel="icon" type="image/png" href="/Public/third_party/Login/images/icons/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="/Public/third_party/Login/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="/Public/third_party/Login/vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="/Public/third_party/Login/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="/Public/third_party/Login/css/util.css">
+    <link rel="stylesheet" type="text/css" href="/Public/third_party/Login/css/main.css">
     <!--app css-->
     <link rel="stylesheet" href="/Public/app/css/app.css">
-    <!--TODO: limit access to public-->
 </head>
 <body>
 <div class="container-fluid">
@@ -53,5 +59,6 @@
                 <a href="/Login" class="nav-link btn btn-primary">Login</a>
             </li>
         </ul>
-    <!--TODO: telegram link to blogma robot!-->
+        <!--TODO: telegram link to blogma robot!-->
     </nav>
+</div>
