@@ -4,7 +4,8 @@
 }
 
 #topNav {
-   min-height: var(--top-margin);
+    min-height: var(--top-margin);
+    z-index: 99;
 }
 
 #firstElementBody {
@@ -14,6 +15,8 @@
 .topNavIcon {
     font-size: 2rem;
     padding: 0;
+    max-width: 2rem;
+    max-height: 2rem;
 }
 
 #user_icon {
@@ -31,4 +34,17 @@
 
 .limiter {
     background : #4e4a4a;
+}
+
+#user_nav {
+    position: fixed;
+    left: 0;
+    height: 100%;
+    z-index: 90;
+    padding-top: 120px;/*var(--top-margin) * 2;*/
+    background: rgba(135,150,255,0.37);
+}
+
+.text-black {
+    color: black;
 }

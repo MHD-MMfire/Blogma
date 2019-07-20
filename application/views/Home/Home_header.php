@@ -23,11 +23,8 @@
 <body>
 <div class="container-fluid">
     <!--top nav-->
-    <nav id="topNav" class="nav nav-pills navbar-expand-md fixed-top bg-light text-dark align-items-center px-2 shadow">
-        <a class="nav-item">
-            <!--TODO-->
-            <a href="/" class="nav-link border mr-3"><i>Blogma</i></a>
-        </a>
+    <nav id="topNav" class="navbar navbar-expand-md navbar-light bg-light text-dark nav-pills fixed-top align-items-center px-2 shadow">
+        <a href="/" class="nav-link navbar-brand mr-2"><img src="/Public/app/blogma-logo.jpg" width="60px" height="30px" /></a>
         <a class="nav-item">
             <a href="/Home" class="nav-link active"><i class="fa fa-home"></i></a>
         </a>
@@ -47,10 +44,19 @@
 
             </li>
             <li class="nav-item ml-auto ml-md-0">
+                <?= $user_img == null ? '
                 <i id="user_icon" class="fas fa-user topNavIcon"></i>
+                ' : '
+                <img id="user_icon" src="'. $user_img .'" class="topNavIcon"></img>
+                ';?>
             </li>
+            <?php if($login) echo ' 
             <li class="nav-item mr-2">
-                <a href="/Login" class="nav-link btn btn-primary">Login</a>
+                <a href="/User" class="nav-link btn btn-primary">Your Blog</a>
+            </li>
+            '; ?>
+            <li class="nav-item mr-2">
+                <a href="<?= !$login ? "/Login" : "/User/signout" ?>" class="nav-link btn btn-primary"><?= !$login ? "Login" : "Sign Out" ?></a>
             </li>
         </ul>
     <!--TODO: telegram link to blogma robot!-->

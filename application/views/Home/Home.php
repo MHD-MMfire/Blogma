@@ -4,9 +4,13 @@
     <h1 class="display-4 text-center mb-4 text-primary">BLOGMA</h1>
     <p class="lead text-center text-primary mb-3">A powerful place to create your own free blog</p>
     <div class="lead d-flex justify-content-center">
+        <?= !$login ? '
         <a class="btn btn-primary btn-lg" href="/Register" role="button">Get Started</a>
         <small class="navbar-text mx-3 orjumbo">OR</small>
         <a class="btn btn-primary btn-lg" href="/Login" role="button">Sign In</a>
+        ' : '
+        <a class="btn btn-primary btn-lg" href="/User" role="button">Go to your Blog</a>
+        '; ?>
     </div>
 </div>
 <!--updated blogs section-->

@@ -25,13 +25,18 @@
                         <i class="fa fa-lock" aria-hidden="true"></i>
                     </span>
                 </div>
+            <div class="justify-content-center input-group">
+                <input class="mt-1 mr-1" type="checkbox" name="keeplogin" id="keeplogin">
+                <label for="keeplogin">Keep me logged in</label>
+            </div>
 
-                <div class="container-login100-form-btn">
+            <div class="container-login100-form-btn">
                     <button class="login100-form-btn">
                         Login
                     </button>
                 </div>
 
+                <!--todo: forgot pass-->
                 <div class="text-center p-t-12">
                     <span class="txt1">
                         Forgot

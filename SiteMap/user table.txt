@@ -3,4 +3,5 @@ username
 password
 salt
 blogname
+image
 (relation between post table and user table)

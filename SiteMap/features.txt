@@ -3,7 +3,7 @@ Features:
 * user register/ login (forgot pass smtp) / logout
 * default template theme for new registered blogs
 * every user : blogname.blogma.com (if possible) (or make a folder for him/her
-* best blogs (ordered by no of likes) preview
+* best blogs (ordered by number of likes) preview
 * blogs list pagination for ppl to see
 * if possible, bad words prevention
 * users first page => a pagination for posts , and more details in a separete page

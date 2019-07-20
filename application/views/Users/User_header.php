@@ -29,17 +29,15 @@
 <body>
 <div class="container-fluid">
     <!--top nav-->
-    <nav id="topNav" class="nav nav-pills navbar-expand-md fixed-top bg-light text-dark align-items-center px-2 shadow">
-        <a class="nav-item">
-            <!--TODO-->
-            <a href="/" class="nav-link border mr-3"><i>Blogma</i></a>
-        </a>
+    <nav id="topNav" class="navbar navbar-expand-md navbar-light bg-light text-dark nav-pills fixed-top align-items-center px-2 shadow">
+            <a href="/" class="nav-link navbar-brand mr-2"><img src="/Public/app/blogma-logo.jpg" width="60px" height="30px" /></a>
         <a class="nav-item">
             <a href="/Home" class="nav-link active"><i class="fa fa-home"></i></a>
         </a>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="navbar-toggler-icon"></i>
+        </button>
         </button>
         <ul class="navbar nav collapse navbar-collapse" id="navbarNav">
             <li class="nav-item">

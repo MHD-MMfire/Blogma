@@ -56,7 +56,7 @@ class CRUD_model extends CI_Model
         return $this->db->affected_rows();
     }
 
-    public function delete($id)
+    public function delete($id , $data = null)
     {
         if(is_numeric($id))
         {

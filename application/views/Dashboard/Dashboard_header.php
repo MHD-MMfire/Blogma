@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en"> <!--TODO-->
 <head>
-    <title>BLOGMA</title>
+    <title>Your Blog</title>
     <!--meta-->
     <meta charset="utf-8" />
     <meta name="description" content="Create your free Weblog" />
@@ -16,6 +16,15 @@
     <script src="/Public/third_party/jquery.min.js"></script>
     <script src="/Public/third_party/bootstrap.min.js"></script>
     <script src="/Public/third_party/popper.min.js"></script>
+
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="/Public/third_party/Dashboard/node_modules/mdi/css/materialdesignicons.min.css">
+    <!-- endinject -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/Public/third_party/Dashboard/css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="/Public/third_party/Dashboard/images/favicon.png" />
+
     <!--app css-->
     <link rel="stylesheet" href="/Public/app/css/app.css">
     <!--TODO: limit access to public-->
@@ -23,11 +32,8 @@
 <body>
 <div class="container-fluid">
     <!--top nav-->
-    <nav id="topNav" class="nav nav-pills navbar-expand-md fixed-top bg-light text-dark align-items-center px-2 shadow">
-        <a class="nav-item">
-            <!--TODO-->
-            <a href="/" class="nav-link border mr-3"><i>Blogma</i></a>
-        </a>
+    <nav id="topNav" class="navbar navbar-expand-md navbar-light bg-light text-dark nav-pills fixed-top align-items-center px-2 shadow">
+        <a href="/" class="nav-link navbar-brand mr-2"><img src="/Public/app/blogma-logo.jpg" width="60px" height="30px" /></a>
         <a class="nav-item">
             <a href="/Home" class="nav-link active"><i class="fa fa-home"></i></a>
         </a>
@@ -47,10 +53,17 @@
 
             </li>
             <li class="nav-item ml-auto ml-md-0">
+                <?= $user_img == null ? '
                 <i id="user_icon" class="fas fa-user topNavIcon"></i>
+                ' : '
+                <img id="user_icon" src="'. $user_img .'" class="topNavIcon"></img>
+                ';?>
             </li>
             <li class="nav-item mr-2">
-                <a href="/Login" class="nav-link btn btn-primary">Login</a>
+                <a href="/User" class="nav-link btn btn-primary">Your Blog</a>
+            </li>
+            <li class="nav-item mr-2">
+                <a href="/User/signout" class="nav-link btn btn-primary">Sign Out</a>
             </li>
         </ul>
     <!--TODO: telegram link to blogma robot!-->

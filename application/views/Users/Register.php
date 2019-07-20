@@ -4,7 +4,7 @@
             <div class="login100-pic js-tilt" data-tilt>
                 <img src="<?php echo base_url() ?>Public/third_party/Login/images/img-01.png" alt="IMG">
             </div>
-            <?= form_open("Register/submit", array("class" => "login100-form validate-form")) ?>
+            <?= form_open_multipart("Register/submit", array("class" => "login100-form validate-form")) ?>
 					<span class="login100-form-title">
 						Member Register
 					</span>
@@ -39,6 +39,24 @@
                     <span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 						</span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate = "Blog name is required">
+                    <input class="input100" type="text" name="blogname" value="<?= set_value('blogname'); ?>" placeholder="Your Blog name">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-address-card" aria-hidden="true"></i>
+                    </span>
+                </div>
+
+                <div class="wrap-input100 input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupFileAddon01" style="width: 4.3rem">Image</span>
+                    </div>
+                    <div class="custom-file">
+                        <input class="input100 custom-file-input" accept=".png,.jpg,.gif" size="1" id="inputGroupFile01" type="file" name="userimg" />
+                        <label class="custom-file-label" for="inputGroupFile01">Choose image</label>
+                    </div>
                 </div>
 
                 <div class="container-login100-form-btn">
